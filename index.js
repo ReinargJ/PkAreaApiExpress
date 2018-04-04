@@ -20,13 +20,16 @@ app.get('/pkarea',cors(corsOptions), function (req, res) {
 
     let data = []
     csv({delimiter: ';'})
-    .fromFile('./resources/database.csv')
-    .on('json',(jsonObj)=>{
-       data.push(jsonObj);
+    .fromFile('/pkarea/resources/database.csv')
+    .on('json',(pk)=>{
+
+        pk.pk_fin = pk.pk_fin == "null"? null:pk.pk_fin;
+       data.push(pk);
     })
     .on('done',(error)=>{
         if(error){
-          res.send(error)
+          console.log(error);
+          res.send({})
         }
         res.send(data);
     })  
@@ -34,6 +37,6 @@ app.get('/pkarea',cors(corsOptions), function (req, res) {
   });
   
 
-  app.listen(3030, function () {
+  app.listen(3000, function () {
     console.log('Runnning')
   })

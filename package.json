@@ -1,0 +1,19 @@
+{
+  "name": "fr.jgranier.pkareaapi",
+  "version": "1.0.0",
+  "description": "Api PkArea",
+  "scripts": {},
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "cors": "^2.8.4",
+    "csvtojson": "^1.1.9",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security"
+  },
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "displayName": "pkarea api"
+}
