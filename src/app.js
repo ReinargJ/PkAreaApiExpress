@@ -32,16 +32,16 @@ app.use(express.urlencoded({ extended: true }));
 // sanitize request data
 app.use(xss());
 
-// gzip compression
+// gzip compression 
 app.use(compression());
 
-let corsOptions = {
-  origin: 'http://127.0.0.1:8081',
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
-
-app.use(cors)
-app.options(corsOptions, cors())
+// let corsOptions = {
+//   origin: 'http://127.0.0.1:8081',
+//   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+// }
+// 
+// app.use(cors)
+// app.options(corsOptions, cors())
 
 // jwt authentication
 app.use(passport.initialize());

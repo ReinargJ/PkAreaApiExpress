@@ -35,13 +35,13 @@ if (error) {
 module.exports = {
   env: envVars.NODE_ENV,
   port: envVars.PORT,
-  mongoose: {
-    url: envVars.MONGODB_URL + (envVars.NODE_ENV === 'test' ? '-test' : ''),
-    options: {
-      useCreateIndex: true,
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    },
+  mariadb: {
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    connectionLimit: 5,
+    database: 'pkarea',
+    connectTimeout: 1000
   },
   jwt: {
     secret: envVars.JWT_SECRET,
