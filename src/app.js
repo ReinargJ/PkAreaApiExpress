@@ -35,13 +35,9 @@ app.use(xss());
 // gzip compression 
 app.use(compression());
 
-// let corsOptions = {
-//   origin: 'http://127.0.0.1:8081',
-//   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-// }
-// 
-// app.use(cors)
-// app.options(corsOptions, cors())
+//cors
+app.use(cors());
+app.options('*', cors());
 
 // jwt authentication
 app.use(passport.initialize());
@@ -53,7 +49,7 @@ if (config.env === 'production') {
 }
 
 // v1 api routes
-app.use('/v1', routes);
+app.use('/', routes);
 
 // send back a 404 error for any unknown api request
 app.use((req, res, next) => {

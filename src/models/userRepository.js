@@ -1,12 +1,10 @@
 const { pool } = require("../config/mariadb");
 
 
-async function fetchPks() {
-    conn = await pool.getConnection();
-    let rows = await conn.query("SELECT * from pk");
-    return rows;
+async function findByName(name) {
+    return {name: "pkarea", password: "pkarea"}
 }
 
 module.exports = {
-    fetchPks
+    findByName
 }

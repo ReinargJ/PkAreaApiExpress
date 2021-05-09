@@ -9,11 +9,12 @@ const register = catchAsync(async (req, res) => {
 });
 
 const login = catchAsync(async (req, res) => {
-  console.log("login");
+  console.log(req.body);
   const { email, password } = req.body;
-  const user = await authService.loginUserWithEmailAndPassword(email, password);
-  const tokens = await tokenService.generateAuthTokens(user);
-  res.send({ user, tokens });
+  const { name } = await authService.loginUserWithEmailAndPassword(email, password);
+  // TODO handle tokens in db
+  // const tokens = await tokenService.generateAuthTokens(user);
+  res.send({ name });
 });
 
 const logout = catchAsync(async (req, res) => {
