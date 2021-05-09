@@ -1,6 +1,6 @@
 const logger = require("../config/logger");
 const { pool } = require("../config/mariadb");
-const {  outputFullQuery } = require("../utils/pkUtil");
+const { outputFullQuery } = require("../utils/pkUtil");
 
 
 async function fetchPks() {
@@ -16,6 +16,7 @@ async function saveAllPks(updates, inserts) {
         conn = await pool.getConnection();
         let rows = await conn.query(query);
         logger.info("Query returned :" + JSON.stringify(rows));
+        conn.end()
         return rows;
     }
 }

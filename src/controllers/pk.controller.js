@@ -1,5 +1,5 @@
 const logger = require("../config/logger");
-const { fetchPks, saveAllPks } = require("../models/pkRepository");
+const { saveAllPks } = require("../models/pkRepository");
 const { fetchAllpks } = require("../services/pk.service");
 const catchAsync = require("../utils/catchAsync");
 
@@ -11,7 +11,8 @@ const getAllPks = catchAsync(async (req, res) => {
 });
 
 const savePks = catchAsync(async (req, res) => {
-    return await saveAllPks(req.updates, req.inserts);
+    console.log(req.body.update);
+    return await saveAllPks(req.body.update, req.body.insert);
 });
 
 module.exports = {
