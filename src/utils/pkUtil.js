@@ -46,6 +46,27 @@ function outputInsert(newData) {
     return `INSERT INTO pk (pk_debut, pk_fin, pk_autoroute, pk_voie, pk_sens, pk_type, pk_debut_zone, pk_fin_zone) VALUES ('${newData.pk_debut}', '${newData.pk_fin}', '${newData.pk_autoroute}', '${newData.pk_voie}', '${newData.pk_sens}', '${newData.pk_type}', '${newData.pk_debut_zone}', '${newData.pk_fin_zone}');\n`
 }
 
+function outputInsert(data) {
+    let keys = []
+    let insertQuery = "INSERT INTO pk (";
+    let valuesQuery = ") VALUES (";
+
+    for (const key in data) {
+        if (Object.hasOwnProperty.call(data, key) && (data[key] !== null && data[key] !== '')) {
+            keys[key] = data[key];
+        }
+    }
+
+    for (const key in keys) {
+        insertQuery += key + ',';
+    }
+    insertQuery = insertQuery.slice(0, -1) + valuesQuery;
+
+    for (const key in keys) {
+        insertQuery += `'${keys[key]}',`;
+    }
+    return insertQuery.slice(0, -1) + ');';
+}
 function outputFullQuery(updates = [], inserts = []) {
     let fullQuery = "";
 

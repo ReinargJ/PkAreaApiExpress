@@ -1,11 +1,12 @@
 const logger = require("../config/logger");
 const { pool } = require("../config/mariadb");
-const { outputFullQuery } = require("../utils/pkUtil");
+const { outputFullQuery, outputInsert } = require("../utils/pkUtil");
 
 
 async function fetchPks() {
     conn = await pool.getConnection();
     let rows = await conn.query("SELECT * from pk");
+    conn.end();
     return rows;
 }
 
@@ -21,7 +22,24 @@ async function saveAllPks(updates, inserts) {
     }
 }
 
+
+async function createPk(pk) {
+    conn = await pool.getConnection();
+    let rows = await conn.query(outputInsert(pk));
+    conn.end();
+    return rows;
+}
+
+async function deletePkById(pkId) {
+    conn = await pool.getConnection();
+    let rows = await conn.query("DELETE FROM pk WHERE pk_id = " + pkId);
+    conn.end();
+    return rows;
+}
+
 module.exports = {
     fetchPks,
-    saveAllPks
+    saveAllPks,
+    deletePkById,
+    createPk
 }
