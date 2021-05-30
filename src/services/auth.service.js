@@ -15,8 +15,9 @@ const { getUserByName } = require('./user.service');
  */
 const loginUserWithEmailAndPassword = async (name, password) => {
   const user = await getUserByName(name)
-  if (!user || !user.password == password) {
-    throw new ApiError(httpStatus.UNAUTHORIZED, 'Incorrect email or password');
+  console.log(user);
+  if (!user || user.password !== password) {
+    throw new ApiError(httpStatus.UNAUTHORIZED, 'Login ou Mot de passe incorrect');
   }
   return user;
 };
