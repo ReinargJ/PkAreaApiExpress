@@ -23,6 +23,10 @@ const envVarsSchema = Joi.object()
     SMTP_USERNAME: Joi.string().description('username for email server'),
     SMTP_PASSWORD: Joi.string().description('password for email server'),
     EMAIL_FROM: Joi.string().description('the from field in the emails sent by the app'),
+    DB_HOST: Joi.string().description('the db host address'),
+    DB_USER: Joi.string().description('the db user'),
+    DB_PASSWORD: Joi.string().description('the db password'),
+    DB_SCHEMA: Joi.string().description('the db schema'),
   })
   .unknown();
 
@@ -36,11 +40,11 @@ module.exports = {
   env: envVars.NODE_ENV,
   port: envVars.PORT,
   mariadb: {
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: envVars.DB_HOST,
+    user: envVars.DB_USER,
+    password: envVars.DB_PASSWORD,
     connectionLimit: 5,
-    database: 'pkarea',
+    database: envVars.DB_SCHEMA,
     connectTimeout: 1000
   },
   jwt: {

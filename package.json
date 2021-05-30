@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Api PkArea",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development JWT_SECRET=testsecret nodemon src/index.js"
+    "dev": "cross-env NODE_ENV=development JWT_SECRET=testsecret DB_HOST=localhost DB_USER=root DB_PASSWORD='' DB_SCHEMA=pkarea nodemon src/index.js"
   },
   "main": "src/index.js",
   "license": "ISC",

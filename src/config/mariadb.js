@@ -1,10 +1,11 @@
-const mariadb = require('mariadb');
+const mariadbclient = require('mariadb');
+const {mariadb} = require('./config.js');
 
-const pool = mariadb.createPool({
-    host: '127.0.0.1',
-    user: 'root',
-    password: '',
-    database: 'pkarea',
+const pool = mariadbclient.createPool({
+    host: mariadb.host,
+    user: mariadb.user,
+    password: mariadb.password,
+    database: mariadb.database,
     connectTimeout: 500
   });
 

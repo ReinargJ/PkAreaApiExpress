@@ -1,0 +1,536 @@
+pk_id;pk_debut;pk_fin;pk_autoroute;pk_voie;pk_sens;pk_type;pk_debut_zone;pk_fin_zone
+1;115.6;121.000;a41;lente;sud;FLR;116;122.1
+2;121.9;122.9;a41;lente;sud;FLR;122.1;124.8
+3;124.6;126.8;a41;lente;sud;FLR;124.8;127.7
+4;127.5;128.000;a41;lente;sud;FLR;127.7;129.1
+5;128.9;null;a41;lente;sud;FLR;129.1;129.7
+6;129.5;null;a41;lente;sud;FLR;129.7;130.8
+7;130.6;131.000;a41;lente;sud;FLR;130.8;131.8
+8;131.6;132.6;a41;lente;sud;FLR;131.8;135.5
+9;135.3;null;a41;lente;sud;FLR;135.5;137.1
+10;136.9;null;a41;lente;sud;FLR;137.1;137.8
+11;137.6;139.3;a41;lente;sud;FLR;137.8;139,8
+12;140.000;null;adelac;lente;sud;FLR;140.2;141.7
+13;141.5;142.75;adelac;lente;sud;FLR;141.7;143.5
+14;143.3;null;adelac;lente;sud;FLR;143.5;143.8
+15;143.6;null;adelac;lente;sud;FLR;143.8;145.4
+16;145.2;145.7;adelac;lente;sud;FLR;145.4;146.9
+17;146.7;147.65;adelac;lente;sud;FLR;146.9;148.75
+18;148.55;null;adelac;lente;sud;FLR;148.75;149.2
+19;149.000;null;adelac;lente;sud;FLR;149.2;153.2
+20;153.000;null;adelac;lente;sud;FLR;153.2;154
+21;153.8;153.8;adelac;lente;sud;FLR;154;154.55
+22;154.35;154.9;adelac;lente;sud;FLR;154.55;155.6
+23;155.4;null;adelac;lente;sud;FLR;155.6;155.85
+24;155.65;155.9;adelac;lente;sud;FLR;155.85;157.6
+25;157.4;null;adelac;lente;sud;FLR;157.6;158.35
+26;158.15;158.6;adelac;lente;sud;FLR;158.35;158.8
+27;115.6;115.85;a41;rapide;sud;FLR;116;117.4
+28;117.2;118.8;a41;rapide;sud;FLR;117.4;120
+29;119.8;120.000;a41;rapide;sud;FLR;120;122.2
+30;122.000;122.85;a41;rapide;sud;FLR;122.2;124.6
+31;124.4;126.2;a41;rapide;sud;FLR;124.6;128
+32;127.8;128.000;a41;rapide;sud;FLR;128;128.95
+33;128.75;null;a41;rapide;sud;FLR;128.95;129.75
+34;129.55;129.75;a41;rapide;sud;FLR;129.75;130.7
+35;130.5;131.55;a41;rapide;sud;FLR;130.7;133.9
+36;133.7;null;a41;rapide;sud;FLR;133.9;137
+37;136.8;null;a41;rapide;sud;FLR;137;138.1
+38;137.9;null;a41;rapide;sud;FLR;138.1;139,8
+39;138.8;139.55;adelac;rapide;sud;FLR;139;139,8
+40;140.2;null;adelac;rapide;sud;FLR;140.4;140.7
+41;140.5;null;adelac;rapide;sud;FLR;140.7;141
+42;140.8;null;adelac;rapide;sud;FLR;141;141.7
+43;141.5;null;adelac;rapide;sud;FLR;141.7;145.1
+44;144.9;null;adelac;rapide;sud;FLR;145.1;145.8
+45;145.6;null;adelac;rapide;sud;FLR;145.8;146.1
+46;145.9;146.6;adelac;rapide;sud;FLR;146.1;147.7
+47;147.5;null;adelac;rapide;sud;FLR;147.7;148.5
+48;148.3;149;adelac;rapide;sud;FLR;148.5;153.2
+49;153;153.8;adelac;rapide;sud;FLR;153.2;154.4
+50;154.2;154.5;adelac;rapide;sud;FLR;154.4;156
+51;155.8;null;adelac;rapide;sud;FLR;156;157.4
+52;157.2;157.6;adelac;rapide;sud;FLR;157.4;159
+53;158.5;null;adelac;lente;nord;FLR;158.3;157.9
+54;158.1;157.95;adelac;lente;nord;FLR;157.9;157.5
+55;157.7;157.5;adelac;lente;nord;FLR;157.5;156.9
+56;157.1;155.8;adelac;lente;nord;FLR;156.9;155.3
+57;155.5;null;adelac;lente;nord;FLR;155.3;154.1
+58;154.3;153.8;adelac;lente;nord;FLR;154.1;153.3
+59;153.5;152.6;adelac;lente;nord;FLR;153.3;148.55
+60;148.75;148.6;adelac;lente;nord;FLR;148.55;146.2
+61;146.4;145.2;adelac;lente;nord;FLR;146.2;144.4
+62;144.6;null;adelac;lente;nord;FLR;144.4;143.4
+63;143.6;null;adelac;lente;nord;FLR;143.4;142
+64;142.2;141.2;adelac;lente;nord;FLR;142;140.8
+65;141;null;adelac;lente;nord;FLR;140.8;140.4
+66;140.6;140;adelac;lente;nord;FLR;140.4;140
+67;139.3;138.65;a41;lente;nord;FLR;139.1;137.45
+68;137.65;null;a41;lente;nord;FLR;137.45;133.35
+69;133.55;null;a41;lente;nord;FLR;133.35;131.2
+70;131.4;130.3;a41;lente;nord;FLR;131.2;129.3
+71;129.5;null;a41;lente;nord;FLR;129.3;128.4
+72;128.6;127.35;a41;lente;nord;FLR;128.4;125.8
+73;126;122.55;a41;lente;nord;FLR;125.8;119.6
+74;119.8;119.55;a41;lente;nord;FLR;119.6;118.35
+75;118.55;116.7;a41;lente;nord;FLR;118.35;116
+76;158.8;158.5;adelac;rapide;nord;FLR;158.6;157.9
+77;158.1;null;adelac;rapide;nord;FLR;157.9;157.4
+78;157.6;157.1;adelac;rapide;nord;FLR;157.4;155.9
+79;156.1;null;adelac;rapide;nord;FLR;155.9;155.3
+80;155.5;null;adelac;rapide;nord;FLR;155.3;154
+81;154.2;153.9;adelac;rapide;nord;FLR;154;153
+82;153.2;152.5;adelac;rapide;nord;FLR;153;148.6
+83;148.8;148.1;adelac;rapide;nord;FLR;148.6;147.4
+84;147.6;147.3;adelac;rapide;nord;FLR;147.4;146.4
+85;146.6;null;adelac;rapide;nord;FLR;146.4;145
+86;145.2;144.8;adelac;rapide;nord;FLR;145;142.9
+87;143.1;143;adelac;rapide;nord;FLR;142.9;142.1
+88;142.3;null;adelac;rapide;nord;FLR;142.1;141.6
+89;141.8;141;adelac;rapide;nord;FLR;141.6;140.2
+90;140.4;140;adelac;rapide;nord;FLR;140.2;139.5
+91;139.7;138.65;a41;rapide;nord;FLR;139.5;137.4
+92;137.6;null;a41;rapide;nord;FLR;137.4;136.5
+93;136.7;null;a41;rapide;nord;FLR;136.5;133.3
+94;133.5;null;a41;rapide;nord;FLR;133.3;132.1
+95;132.3;null;a41;rapide;nord;FLR;132.1;131.3
+96;131.5;130.35;a41;rapide;nord;FLR;131.3;128.4
+97;128.6;null;a41;rapide;nord;FLR;128.4;127.4
+98;127.6;127.35;a41;rapide;nord;FLR;127.4;125.8
+99;126;124.45;a41;rapide;nord;FLR;125.8;122.4
+100;122.6;122.45;a41;rapide;nord;FLR;122.4;119.6
+101;119.8;119.55;a41;rapide;nord;FLR;119.6;118.4
+102;118.6;116.25;a41;rapide;nord;FLR;118.4;116
+103;140.3;null;a410;lente;sud;FLR;140.5;141.1
+104;140.9;null;a410;lente;sud;FLR;141.1;144.5
+105;144.3;146.4;a410;lente;sud;FLR;144.5;147.5
+106;147.3;null;a410;lente;sud;FLR;147.5;149.5
+107;149.3;null;a410;lente;sud;FLR;149.5;150.15
+108;149.95;null;a410;lente;sud;FLR;150.15;151.15
+109;150.95;null;a410;lente;sud;FLR;151.15;152.1
+110;151.9;null;a410;lente;sud;FLR;152.1;153
+111;152.8;153;a410;lente;sud;FLR;153;155
+112;154.8;155.2;a410;lente;sud;FLR;155;156.65
+113;156.45;157;a410;lente;sud;FLR;156.65;157.9
+114;157.7;null;a410;lente;sud;FLR;157.9;159.7
+115;159.5;null;a410;lente;sud;FLR;159.7;160.55
+116;160.35;null;a410;lente;sud;FLR;160.55;163
+117;162.8;null;a410;lente;sud;FLR;163;163.8
+118;163.6;null;a410;lente;sud;FLR;163.8;164.6
+119;164.4;165.1;a410;lente;sud;FLR;164.6;165.4
+120;140;140.35;a410;rapide;sud;FLR;140.2;141.1
+121;140.9;null;a410;rapide;sud;FLR;141.1;142.4
+122;142.2;null;a410;rapide;sud;FLR;142.4;144.6
+123;144.4;145.7;a410;rapide;sud;FLR;144.6;146.7
+124;146.5;null;a410;rapide;sud;FLR;146.7;149.5
+125;149.3;null;a410;rapide;sud;FLR;149.5;150.15
+126;149.95;null;a410;rapide;sud;FLR;150.15;151.1
+127;150.9;null;a410;rapide;sud;FLR;151.1;151.7
+128;151.5;null;a410;rapide;sud;FLR;151.7;153.1
+129;152.9;null;a410;rapide;sud;FLR;153.1;155.3
+130;155.1;null;a410;rapide;sud;FLR;155.3;156.95
+131;156.75;null;a410;rapide;sud;FLR;156.95;159.8
+132;159.6;null;a410;rapide;sud;FLR;159.8;160.6
+133;160.4;null;a410;rapide;sud;FLR;160.6;163.1
+134;162.9;null;a410;rapide;sud;FLR;163.1;164.7
+135;164.5;165;a410;rapide;sud;FLR;164.7;165.6
+136;165.9;165.8;a410;lente;nord;FLR;165.7;164.6
+137;164.8;null;a410;lente;nord;FLR;164.6;164
+138;164.2;null;a410;lente;nord;FLR;164;162.4
+139;162.6;null;a410;lente;nord;FLR;162.4;161.6
+140;161.8;null;a410;lente;nord;FLR;161.6;160.3
+141;160.5;159.45;a410;lente;nord;FLR;160.3;157.8
+142;158;null;a410;lente;nord;FLR;157.8;156.4
+143;156.6;156.35;a410;lente;nord;FLR;156.4;154.7
+144;154.9;null;a410;lente;nord;FLR;154.7;154.25
+145;154.45;null;a410;lente;nord;FLR;154.25;152.4
+146;152.6;null;a410;lente;nord;FLR;152.4;151.3
+147;151.5;150.7;a410;lente;nord;FLR;151.3;149.5
+148;149.7;null;a410;lente;nord;FLR;149.5;148.75
+149;148.95;null;a410;lente;nord;FLR;148.75;146.1
+150;146.3;null;a410;lente;nord;FLR;146.1;145.3
+151;145.5;144.6;a410;lente;nord;FLR;145.3;141.85
+152;142.05;null;a410;lente;nord;FLR;141.85;140.5
+153;140.7;null;a410;lente;nord;FLR;140.5;140
+154;165.6;null;a410;rapide;nord;FLR;165.4;164.6
+155;164.8;164.35;a410;rapide;nord;FLR;164.6;162.4
+156;162.6;null;a410;rapide;nord;FLR;162.4;161.55
+157;161.75;null;a410;rapide;nord;FLR;161.55;160.3
+158;160.5;null;a410;rapide;nord;FLR;160.3;159.1
+159;159.3;null;a410;rapide;nord;FLR;159.1;158.1
+160;158.3;null;a410;rapide;nord;FLR;158.1;156.4
+161;156.6;null;a410;rapide;nord;FLR;156.4;154.7
+162;154.9;null;a410;rapide;nord;FLR;154.7;152.4
+163;152.6;null;a410;rapide;nord;FLR;152.4;150.8
+164;151;150.7;a410;rapide;nord;FLR;150.8;149.5
+165;149.7;null;a410;rapide;nord;FLR;149.5;146.1
+166;146.3;null;a410;rapide;nord;FLR;146.1;145.3
+167;145.5;144.25;a410;rapide;nord;FLR;145.3;141.85
+169;142.05;null;a410;rapide;nord;FLR;141.85;140.5
+170;140.7;null;a410;rapide;nord;FLR;140.5;140
+171;140.5;140.8;adelac;lente;sud;entrée 18 cruseilles est;140.5;140.8
+172;141.9;142.3;adelac;lente;sud;viaduc des usses;141.9;142.3
+173;141.9;142.3;adelac;rapide;sud;viaduc des usses;141.9;142.3
+174;142.3;141.9;adelac;lente;nord;viaduc des usses;142.3;141.9
+175;142.3;141.9;adelac;rapide;nord;viaduc des usses;142.3;141.9
+176;143.9;144.25;adelac;lente;sud;tranchée couverte;143.9;144.25
+177;143.9;144.25;adelac;rapide;sud;tranchée couverte;143.9;144.25
+178;144.25;143.9;adelac;lente;nord;tranchée couverte;144.25;143.9
+179;144.25;143.9;adelac;rapide;nord;tranchée couverte;144.25;143.9
+180;145.4;145.7;adelac;lente;sud;viaduc pessevieille;145.4;145.7
+181;145.4;145.7;adelac;rapide;sud;viaduc pessevieille;145.4;145.7
+182;145.7;145.4;adelac;lente;nord;viaduc pessevieille;145.7;145.4
+183;145.7;145.4;adelac;rapide;nord;viaduc pessevieille;145.7;145.4
+184;146.65;147;adelac;lente;sud;viaduc st martin;146.65;147
+185;146.65;147;adelac;rapide;sud;viaduc st martin;146.65;147
+186;147;146.65;adelac;lente;nord;viaduc st martin;147;146.65
+187;147;146.65;adelac;rapide;nord;viaduc st martin;147;146.65
+188;149.25;152.4;adelac;lente;sud;tunnel mont sion;149.25;152.4
+189;149.25;152.4;adelac;rapide;sud;tunnel mont sion;149.25;152.4
+190;152.4;149.25;adelac;lente;nord;tunnel mont sion;152.4;149.25
+191;152.4;149.25;adelac;rapide;nord;tunnel mont sion;152.4;149.25
+192;154.2;154.6;adelac;lente;sud;viaduc nant de la folle;154.2;154.6
+193;154.2;154.6;adelac;rapide;sud;viaduc nant de la folle;154.2;154.6
+194;154.6;154.2;adelac;lente;nord;viaduc nant de la folle;154.6;154.2
+195;154.6;154.2;adelac;rapide;nord;viaduc nant de la folle;154.6;154.2
+196;142.9;143.1;adelac;lente;sud;sortie la ravoire;143.2;142.5
+197;143.4;143.7;adelac;lente;sud;entrée la ravoire;143.4;143.7
+198;144.5;147.3;adelac;lente;sud;chaussée décalée;144.5;147.3
+199;144.5;147.3;adelac;rapide;sud;chaussée décalée;144.5;147.3
+200;147.3;144.5;adelac;lente;nord;chaussée décalée;147.3;144.5
+201;147.3;144.3;adelac;rapide;nord;chaussée décalée;147.3;144.5
+202;148.4;148.8;adelac;lente;sud;entrée copponex;148.4;148.8
+203;157.75;158;adelac;lente;sud;sortie19 st julien;157.75;158
+204;156.9;156.7;adelac;lente;nord;entrée 19 st julien;156.9;156.7
+205;155.8;153.9;adelac;lente;nord;VSVL;155.8;153.9
+206;148.8;148.65;adelac;lente;nord;sortie copponex;148.8;148.65
+207;143.55;143.2;adelac;lente;nord;sortie pont de la caille;143.55;143.2
+208;143;142.7;adelac;lente;nord;entrée pont de la caille;143;142.7
+209;141.4;141.2;adelac;lente;nord;sortie18 cruseilles ouest;141.4;141.2
+210;116.7;116.9;a41;lente;sud;entrée15 rumilly;116.7;116.9
+211;116.9;117.1;a41;lente;sud;viaduc la touvière;116.9;117.1
+212;116.9;117.1;a41;rapide;sud;viaduc la touvière;116.9;117.1
+213;117.1;116.9;a41;lente;nord;viaduc la touvière;117.1;116.9
+214;117.1;116.9;a41;rapide;nord;viaduc la touvière;117.1;116.9
+215;117.45;117.9;a41;lente;sud;viaduc chéran;117.45;117.9
+216;117.45;117.9;a41;rapide;sud;viaduc chéran;117.45;117.9
+217;117.9;117.45;a41;lente;nord;viaduc chéran;117.9;117.45
+218;117.9;117.45;a41;rapide;nord;viaduc chéran;117.9;117.45
+219;118.15;118.5;a41;lente;sud;viaduc eparris;118.15;118.5
+220;118.15;118.5;a41;rapide;sud;viaduc eparris;118.15;118.5
+221;118.5;118.15;a41;lente;nord;viaduc eparris;118.5;118.15
+222;118.5;118.15;a41;rapide;nord;viaduc eparris;118.5;118.15
+223;116.9;116.7;a41;lente;nord;sortie15 rumilly;116.9;116.7
+224;121.6;121.85;a41;lente;sud;sortie15.1seynod;121.6;121.85
+225;122.05;122.3;a41;lente;sud;sortie15.1seynod;122.05;122.3
+226;125;125.3;a41;lente;sud;sortie ripaille;125;125.3
+227;125.8;126.15;a41;lente;sud;entrée ripaille;125.8;126.15
+228;127.85;128;a41;lente;sud;sortie16 annecy centre;127.85;128
+229;128.25;128.7;a41;lente;sud;entrée16 annecy centre;128.25;128.7
+230;133.1;133.25;a41;lente;sud;sortie17 annecy nord;133.1;133.25
+231;133.5;133.8;a41;lente;sud;entrée17 annecy nord;133.5;133.8
+232;134.8;137.25;a41;lente;sud;VSVL;134.8;137.25
+233;122.05;121.75;a41;lente;nord;entrée15.1 seynod;122.05;121.75
+234;122.35;122.2;a41;lente;nord;sortie15.1 seynod;122.35;122.2
+235;125.5;124.8;a41;lente;nord;entrée fontanelles;125.5;124.8
+236;125.75;125.6;a41;lente;nord;sortie fontanelles;125.75;125.6
+237;127.9;127.55;a41;lente;nord;entrée16 annecy centre;127.9;127.55
+238;128.25;128.1;a41;lente;nord;sortie16 annecy centre;128.25;128.1
+239;128.6;126.6;a41;lente;nord;VSVL;128.6;126.6
+240;129.55;129.7;a41;lente;sud;viaduc sncf fier;129.55;129.7
+241;129.55;129.7;a41;rapide;sud;viaduc sncf fier;129.55;129.7
+242;129.7;129.55;a41;lente;nord;viaduc sncf fier;129.7;129.55
+243;129.7;129.55;a41;rapide;nord;viaduc sncf fier;129.7;129.55
+244;129.2;129.45;a41;lente;sud;viaduc fier;129.2;129.45
+245;129.2;129.45;a41;rapide;sud;viaduc fier;129.2;129.45
+246;129.45;129.2;a41;lente;nord;viaduc fier;129.45;129.2
+247;129.45;129.2;a41;rapide;nord;viaduc fier;129.45;129.2
+248;133.4;133;a41;lente;nord;entrée17 annecy nord;133.4;133
+249;133.8;133.6;a41;lente;nord;sortie17 annecy nord;133.8;133.6
+250;140;139.35;a41;lente;nord;entrée aire allonzier;140;139.35
+251;140.7;140.9;a410;lente;sud;entrée18 cruzeilles est;140.7;140.9
+252;144.85;145.2;a410;lente;sud;entrée crêts blancs;144.85;145.2
+253;144.1;144.35;a410;lente;sud;sortie crêts blancs;144.1;144.35
+254;148.9;149.2;a410;lente;sud;viaduc cerset;148.9;149.2
+255;148.9;149.2;a410;rapide;sud;viaduc cerset;148.9;149.2
+256;149.2;148.9;a410;lente;nord;viaduc cerset;149.2;148.9
+257;149.2;148.9;a410;rapide;nord;viaduc cerset;149.2;148.9
+258;154.15;154.4;a410;lente;sud;entrée etaux;154.15;154.4
+259;153.6;153.8;a410;lente;sud;sortie étaux;153.6;153.8
+260;158.55;158.7;a410;lente;sud;sortie19 roche/foron;158.55;158.7
+261;158.9;159.3;a410;lente;sud;entrée19 roche/foron;158.9;159.3
+262;164.250;164,8;a410;lente;sud;bretelle a40;164.250;164,8
+263;164.250;164,8;a410;rapide;sud;bretelle a40;164.25;164,8
+264;141.2;141;a410;lente;nord;sortie18 cruseilles ouest;141.2;141
+265;144.5;144.15;a410;lente;nord;entrée groisy;144.5;144.15
+266;145.15;144.9;a410;lente;nord;sortie groisy;145.15;144.9
+267;153.95;153.6;a410;lente;nord;entrée evires;153.95;153.6
+268;154.6;154.45;a410;lente;nord;sortie evires;154.6;154.45
+269;158.4;158.1;a410;lente;nord;entrée19 roche/foron;158.4;158.1
+270;158.85;158.6;a410;lente;nord;sortie19 roche/foron;158.85;158.6
+271;164.8;164.45;a410;lente;nord;bretelle a40;164.8;164.45
+272;151.5;149.55;a410;lente;nord;chaussée décalée;151.5;149.55
+273;151.5;149.55;a410;rapide;nord;chaussée décalée;151.5;149.55
+274;149.55;151.1;a410;lente;sud;chaussée décalée;149.55;151.1
+275;149.55;151.1;a410;rapide;sud;chaussée décalée;149.55;151.1
+276;156.4;156.7;a410;lente;sud;viaduc foron;156.4;156.7
+277;156.4;156.7;a410;rapide;sud;viaduc foron;156.4;156.7
+278;156.7;156.4;a410;lente;nord;viaduc foron;156.7;156.4
+279;156.7;156.4;a410;rapide;nord;viaduc foron;156.7;156.4
+280;144.35;144.85;a410;lente;sud;rec crêts blancs;144.35;144.85
+281;153.8;154.15;a410;lente;sud;rec etaux;153.8;154.15
+282;158.7;158.9;a410;lente;sud;rec roche/foron;158.7;158.9
+283;158.6;158.4;a410;lente;nord;rec roche/foron;158.6;158.4
+284;154.45;153.95;a410;lente;nord;rec evires;154.45;153.95
+285;144.9;144.5;a410;lente;nord;rec groisy;144.9;144.5
+286;133.6;133.4;a41;lente;nord;rec annecy nord;133.6;133.4
+287;128.1;127.95;a41;lente;nord;rec annecy centre;128.1;127.95
+288;125.6;125.05;a41;lente;nord;rec fontanelles;125.6;125.05
+289;122.2;122.05;a41;lente;nord;rec seynod;122.2;122.05
+290;121.85;122.05;a41;lente;sud;rec seynod;121.85;122.05
+291;125.3;125.8;a41;lente;sud;rec ripaille;125.3;125.8
+292;128;128.25;a41;lente;sud;rec annecy centre;128;128.25
+293;133.25;133.5;a41;lente;sud;rec annecy nord;133.25;133.5
+294;143.2;143;adelac;lente;nord;rec pont de la caille;143.2;143
+295;143.1;143.4;adelac;lente;sud;rec la ravoire;143.1;143.4
+296;115.6;null;a41;lente;sud;FIXE;115.8;117.4
+297;117.2;null;a41;lente;sud;FIXE;117.4;119.5
+298;119.3;null;a41;lente;sud;FIXE;119.5;122
+299;121.8;null;a41;lente;sud;FIXE;121.8;127.8
+300;127.6;null;a41;lente;sud;FIXE;127.8;132.8
+301;132.6;null;a41;lente;sud;FIXE;132.8;138
+302;137.8;null;a41;lente;sud;FIXE;138;140
+303;140;null;a410;lente;sud;FIXE;140.1;142.7
+304;142.5;null;a410;lente;sud;FIXE;142.7;145.6
+305;145.4;null;a410;lente;sud;FIXE;145.6;148.7
+306;148.5;null;a410;lente;sud;FIXE;148.7;150.2
+307;150;null;a410;lente;sud;FIXE;153;152.8
+308;152.6;null;a410;lente;sud;FIXE;152.8;155.5
+309;155.3;null;a410;lente;sud;FIXE;155.5;157
+310;156.8;null;a410;lente;sud;FIXE;157;160.5
+311;160.3;null;a410;lente;sud;FIXE;160.3;165.6
+312;115.6;null;a41;rapide;sud;FIXE;115.8;117.4
+313;117.2;null;a41;rapide;sud;FIXE;117.4;119.5
+314;119.3;null;a41;rapide;sud;FIXE;119.5;122
+315;121.8;null;a41;rapide;sud;FIXE;121.8;127.8
+316;127.6;null;a41;rapide;sud;FIXE;127.8;132.8
+317;132.6;null;a41;rapide;sud;FIXE;132.8;138
+318;137.8;null;a41;rapide;sud;FIXE;138;140
+319;140;null;a410;rapide;sud;FIXE;140.1;142.7
+320;142.5;null;a410;rapide;sud;FIXE;142.7;145.6
+321;145.4;null;a410;rapide;sud;FIXE;145.6;148.7
+322;148.5;null;a410;rapide;sud;FIXE;148.7;150.2
+323;150;null;a410;rapide;sud;FIXE;153;152.8
+324;152.6;null;a410;rapide;sud;FIXE;152.8;155.5
+325;155.3;null;a410;rapide;sud;FIXE;155.5;157
+326;156.8;null;a410;rapide;sud;FIXE;157;160.5
+327;160.3;null;a410;rapide;sud;FIXE;160.3;165.6
+328;164.5;null;a410;lente;nord;FIXE;164.3;162.4
+329;162.6;null;a410;lente;nord;FIXE;162.4;156.6
+330;156.8;null;a410;lente;nord;FIXE;156.6;153
+331;153.2;null;a410;lente;nord;FIXE;153;150.7
+332;150.9;null;a410;lente;nord;FIXE;150.7;146.9
+333;147.1;null;a410;lente;nord;FIXE;146.9;144
+334;144.2;null;a410;lente;nord;FIXE;144;141.95
+335;142.05;null;a410;lente;nord;FIXE;141.95;140
+336;139.6;null;a41;lente;nord;FIXE;139.4;136.5
+337;136.7;null;a41;lente;nord;FIXE;136.5;133.4
+338;133.6;null;a41;lente;nord;FIXE;133.4;130.2
+339;130.4;null;a41;lente;nord;FIXE;130.2;124.55
+340;124.75;null;a41;lente;nord;FIXE;124.55;122.4
+341;122.6;null;a41;lente;nord;FIXE;122.4;119.6
+342;119.8;null;a41;lente;nord;FIXE;119.6;116
+343;164.5;null;a410;rapide;nord;FIXE;164.3;162.4
+344;162.6;null;a410;rapide;nord;FIXE;162.4;156.6
+345;156.8;null;a410;rapide;nord;FIXE;156.6;153
+346;153.2;null;a410;rapide;nord;FIXE;153;150.7
+347;150.9;null;a410;rapide;nord;FIXE;150.7;146.9
+348;147.1;null;a410;rapide;nord;FIXE;146.9;144
+349;144.2;null;a410;rapide;nord;FIXE;144;141.95
+350;142.05;null;a410;rapide;nord;FIXE;141.95;140
+351;139.6;null;a41;rapide;nord;FIXE;139.4;136.5
+352;136.7;null;a41;rapide;nord;FIXE;136.5;133.4
+353;133.6;null;a41;rapide;nord;FIXE;133.4;130.2
+354;130.4;null;a41;rapide;nord;FIXE;130.2;124.55
+355;124.75;null;a41;rapide;nord;FIXE;124.55;122.4
+356;122.6;null;a41;rapide;nord;FIXE;122.4;119.6
+357;119.8;null;a41;rapide;nord;FIXE;119.6;116
+358;158.9;null;a410;rapide;nord;FIXE;158.7;156.6
+359;139.6;null;a41;lente;sud;bassin 139,600 VS;139.600;140.38
+360;139.6;null;a41;rapide;sud;bassin 139,600 VS;139.600;140.38
+361;139.6;null;a41;lente;nord;bassin 139,600 VS;140.38;139.6
+362;139.6;null;a41;rapide;nord;bassin 139,600 VS;140.38;139.6
+363;140.749;null;adelac;lente;sud;bassin cru ouest VN;140.381;140.777
+364;140.749;null;adelac;rapide;sud;bassin cru ouest VN;140.381;140.777
+365;140.749;null;adelac;lente;nord;bassin cru ouest VN;140.777;140.381
+366;140.749;null;adelac;rapide;nord;bassin cru ouest VN;140.777;140.381
+367;141.8;null;adelac;lente;sud;bassin 141,800 VS;140.778;142.250
+368;141.8;null;adelac;rapide;sud;bassin 141,800 VS;140.778;142.250
+369;141.8;null;adelac;lente;nord;bassin 141,800 VS;142.250;140.778
+370;141.8;null;adelac;rapide;nord;bassin 141,800 VS;142.250;140.778
+371;142.200;null;adelac;lente;sud;bassin 142,200 sous viaduc des usses;142.251;143.060
+372;142.200;null;adelac;rapide;sud;bassin 142,200 sous viaduc des usses;142.251;143.060
+373;142.200;null;adelac;lente;nord;bassin 142,200 sous viaduc des usses;143.06;142.251
+374;142.200;null;adelac;rapide;nord;bassin 142,200 sous viaduc des usses;143.06;142.251
+375;142.800;null;adelac;lente;sud;bassin aire des ponts de la caille;143.061;144.076
+376;142.800;null;adelac;rapide;sud;bassin aire des ponts de la caille;143.061;144.076
+377;142.800;null;adelac;lente;nord;bassin aire des ponts de la caille;144.076;143.061
+378;142.800;null;adelac;rapide;nord;bassin aire des ponts de la caille;114.076;143.061
+379;145.350;null;adelac;lente;sud;bassin 145,350 VN;144.077;145.400
+380;145.350;null;adelac;rapide;sud;bassin 145,350 VN;144.077;145.400
+381;145.350;null;adelac;lente;nord;bassin 145,350 VN;145.400;144.077
+382;145.350;null;adelac;rapide;nord;bassin 145,350 VN;145.400;144.077
+383;146.600;null;adelac;lente;sud;bassin 146,600 VN;145.401;146.670
+384;146.600;null;adelac;rapide;sud;bassin 146,600 VN;145.401;146.670
+385;146.600;null;adelac;lente;nord;bassin 146,600 VN;146.670;145.401
+386;146.600;null;adelac;rapide;nord;bassin 146,600 VN;146.670;145.401
+387;147,7;null;adelac;lente;sud;bassin 147,700 VN;146.671;147.715
+388;147,7;null;adelac;rapide;sud;bassin 147,700 VN;146.671;147.715
+389;147,7;null;adelac;lente;nord;bassin 147,700 VN;147.715;146.671
+390;147,7;null;adelac;rapide;nord;bassin 147,700 VN;147.715;146.671
+391;148.400;null;adelac;lente;sud;bassin 148,400 VN;147.716;149.280
+392;148.400;null;adelac;rapide;sud;bassin 148,400 VN;147.716;149.280
+393;148.400;null;adelac;lente;nord;bassin 148,400 VN;149.280;147.716
+394;148.400;null;adelac;rapide;nord;bassin 148,400 VN;149.280;147.716
+395;152.335;null;adelac;lente;sud;bassin tunnel tête Nord;149.281;152.335
+396;152.335;null;adelac;rapide;sud;bassin tunnel tête Nord;149.281;152.335
+397;152.335;null;adelac;lente;nord;bassin tunnel tête Nord;152.335;149.281
+398;152.335;null;adelac;rapide;nord;bassin tunnel tête Nord;152.335;149.281
+399;152.800;null;adelac;lente;sud;bassin 152,800 VS;152.336;152.914
+400;152.800;null;adelac;rapide;sud;bassin 152,800 VS;152.336;152.914
+401;152.800;null;adelac;lente;nord;bassin 152,800 VS;152.914;152.336
+402;152.800;null;adelac;rapide;nord;bassin 152,800 VS;152.914;152.336
+403;154.200;null;adelac;lente;sud;bassin 154,200 VN;152.915;154.205
+404;154.200;null;adelac;rapide;sud;bassin 154,200 VN;152.915;154.205
+405;154.200;null;adelac;lente;nord;bassin 154,200 VN;154.205;152.915
+406;154.200;null;adelac;rapide;nord;bassin 154,200 VN;154.205;152.915
+407;155.700;null;adelac;lente;sud;bassin 155,700 VN;154.206;156.610
+408;155.700;null;adelac;rapide;sud;bassin 155,700 VN;154.206;156.610
+409;155.700;null;adelac;lente;nord;bassin 155,700 VN;156.610;154.206
+410;155.700;null;adelac;rapide;nord;bassin 155,700 VN;156.610;154.206
+411;157.600;null;adelac;lente;sud;bassin 157,600 VN;156.611;157.749
+412;157.600;null;adelac;rapide;sud;bassin 157,600 VN;156.611;157.749
+413;157.600;null;adelac;lente;nord;bassin 157,600 VN;157.749;156.611
+414;157.600;null;adelac;rapide;nord;bassin 157,600 VN;157.749;156.611
+415;158.700;null;adelac;lente;sud;bassin 158,700 VS avant douane;158.226;158.719
+416;158.700;null;adelac;rapide;sud;bassin 158,700 VS avant douane;158.226;158.719
+417;158.700;null;adelac;lente;nord;bassin 158,700 VS avant douane;158.719;158.226
+418;158.700;null;adelac;rapide;nord;bassin 158,700 VS avant douane;158.719;158.226
+419;138.100;null;a41;lente;sud;bassin 138,100 VN;138.250;139.550
+420;138.100;null;a41;rapide;sud;bassin 138,100 VN;138.250;139.550
+421;131.120;null;a41;lente;sud;bassin 131,120 zone des îles ;131.000;132.800
+422;131.120;null;a41;rapide;sud;bassin 131,120 zone des îles ;131.000;132.800
+423;131.120;null;a41;lente;nord;bassin 131,120 zone des îles ;132.800;131.000
+424;131.120;null;a41;rapide;nord;bassin 131,120 zone des îles ;132.800;131.000
+425;121.800;null;a41;lente;sud;bassin 121,800 VN;121.935;122.353
+426;121.800;null;a41;rapide;sud;bassin 121,800 VN;121.935;122.353
+427;121.800;null;a41;lente;nord;bassin 121,800 VN;122.353;121.935
+428;121.800;null;a41;rapide;nord;bassin 121,800 VN;122.353;121.935
+429;121.000;null;a41;lente;sud;bassin 121VN;121.300;121.915
+430;121.000;null;a41;rapide;sud;bassin 121VN;121.300;121.915
+431;121.000;null;a41;lente;nord;bassin 121VN;121.915;121.300
+432;121.000;null;a41;rapide;nord;bassin 121VN;121.915;121.300
+433;116,13;116,4;a41;lente;sud; sortie 15 rumilly;116,13;116,4
+434;116,13;116,4;a41;rapide;sud; sortie 15 rumilly;116,13;116,4
+435;116,4;116,7;a41;lente;sud;recouvrement rumilly;116,4;116,7
+436;116,4;116,7;a41;rapide;sud;recouvrement rumilly;116,4;116,7
+437;116,7;116,6;a41;lente;nord;recouvrement rumilly;116,7;116,6
+438;116,7;116,6;a41;rapide;nord;recouvrement rumilly;116,7;116,6
+439;116,6;116,3;a41;lente;nord;entrée 15 rumilly;116,6;116,3
+440;116,6;116,3;a41;rapide;nord;entrée 15 rumilly;116,6;116,3
+441;164.8;164.45;a410;rapide;nord;bretellea40;164.8;164.45
+442;148,85;null;adelac;lente;sud;FIXE TUNNEL;149,05;155,05
+443;148,85;null;adelac;rapide;sud;FIXE TUNNEL;149,05;155,05
+444;152,75;null;adelac;lente;nord;FIXE TUNNEL;152,55;146,55
+445;152,75;null;adelac;rapide;nord;FIXE TUNNEL;152,55;146,55
+446;140.5;140.8;adelac;rapide;sud;entrée cruseilles est;140.5;140.8
+447;142.9;143.1;adelac;rapide;sud;sortie la ravoire;143.2;142.5
+448;143.4;143.7;adelac;rapide;sud;entrée la ravoire;143.4;143.7
+449;148.4;148.8;adelac;rapide;sud;entrée copponex;148.4;148.8
+450;157.75;158;adelac;rapide;sud;sortie19 st julien;157.75;158
+451;156.9;156.7;adelac;rapide;nord;entrée st julien;156.9;156.7
+452;148.8;148.65;adelac;rapide;nord;sortie copponex;148.8;148.65
+453;143.55;143.2;adelac;rapide;nord;sortie pont de la caille;143.55;143.2
+454;143;142.7;adelac;rapide;nord;entrée pont de la caille;143;142.7
+455;141.4;141.2;adelac;rapide;nord;sortie18 cruseilles ouest;141.4;141.2
+456;116.7;116.9;a41;rapide;sud;entrée 15 rumilly;116.7;116.9
+457;116.9;116.7;a41;rapide;nord;sortie15 rumilly;116.9;116.7
+458;121.6;121.85;a41;rapide;sud;sortie15.1seynod;121.6;121.85
+459;122.05;122.3;a41;rapide;sud;sortie15.1seynod;122.05;122.3
+460;125;125.3;a41;rapide;sud;sortie ripaille;125;125.3
+461;125.8;126.15;a41;rapide;sud;entrée ripaille;125.8;126.15
+462;127.85;128;a41;rapide;sud;sortie16 annecy centre;127.85;128
+463;128.25;128.7;a41;rapide;sud;entrée16 annecy centre;128.25;128.7
+464;133.1;133.25;a41;rapide;sud;sortie17annecynord;133.1;133.25
+465;133.5;133.8;a41;rapide;sud;entrée17annecynord;133.5;133.8
+466;122.05;121.75;a41;rapide;nord;entrée15.1seynod;122.05;121.75
+467;122.35;122.2;a41;rapide;nord;sortie15.1seynod;122.35;122.2
+468;125.5;124.8;a41;rapide;nord;entrée fontanelles;125.5;124.8
+469;125.75;125.6;a41;rapide;nord;sortie fontanelles;125.75;125.6
+470;127.9;127.55;a41;rapide;nord;entrée16 annecy centre;127.9;127.55
+471;128.25;128.1;a41;rapide;nord;sortie16 annecy centre;128.25;128.1
+472;134.8;137.25;a41;rapide;sud;VSVL;134.8;137.25
+473;128.6;126.6;a41;rapide;nord;VSVL;128.6;126.6
+474;155.8;153.9;adelac;rapide;nord;VSVL;155.8;153.9
+475;133.4;133;a41;rapide;nord;entrée17annecynord;133.4;133
+476;133.8;133.6;a41;rapide;nord;sortie17annecynord;133.8;133.6
+477;140;139.35;a41;rapide;nord;entréeaireallonzier;140;139.35
+478;140.7;140.9;a410;rapide;sud;entrée18cruzeilles est;140.7;140.9
+479;144.85;145.2;a410;rapide;sud;entrée crêts blancs;144.85;145.2
+480;144.1;144.35;a410;rapide;sud;sortie crêts blancs;144.1;144.35
+481;154.15;154.4;a410;rapide;sud;entrée etaux;154.15;154.4
+482;153.6;153.8;a410;rapide;sud;sortie étaux;153.6;153.8
+483;158.55;158.7;a410;rapide;sud;sortie19roche/foron;158.55;158.7
+484;158.9;159.3;a410;rapide;sud;entrée19roche/foron;158.9;159.3
+485;141.2;141;a410;rapide;nord;sortie18 cruseilles ouest;141.2;141
+486;144.5;144.15;a410;rapide;nord;entrée groisy;144.5;144.15
+487;145.15;144.9;a410;rapide;nord;sortie groisy;145.15;144.9
+488;153.95;153.6;a410;rapide;nord;entrée evires;153.95;153.6
+489;154.6;154.45;a410;rapide;nord;sortie evires;154.6;154.45
+490;158.4;158.1;a410;rapide;nord;entrée19roche/foron;158.4;158.1
+491;158.85;158.6;a410;rapide;nord;sortie19roche/foron;158.85;158.6
+492;144.35;144.85;a410;rapide;sud;rec crêts blancs;144.35;144.85
+493;153.8;154.15;a410;rapide;sud;rec etaux;153.8;154.15
+494;158.7;158.9;a410;rapide;sud;rec roche/foron;158.7;158.9
+495;158.6;158.4;a410;rapide;nord;rec roche/foron;158.6;158.4
+496;154.45;153.95;a410;rapide;nord;rec evires;154.45;153.95
+497;144.9;144.5;a410;rapide;nord;rec groisy;144.9;144.5
+498;133.6;133.4;a41;rapide;nord;rec annecy nord;133.6;133.4
+499;128.1;127.95;a41;rapide;nord;rec annecy centre;128.1;127.95
+500;125.6;125.05;a41;rapide;nord;rec fontanelles;125.6;125.05
+501;122.2;122.05;a41;rapide;nord;rec seynod;122.2;122.05
+502;121.85;122.05;a41;rapide;sud;rec seynod;121.85;122.05
+503;125.3;125.8;a41;rapide;sud;rec ripaille;125.3;125.8
+504;128;128.25;a41;rapide;sud;rec annecy centre;128;128.25
+505;133.25;133.5;a41;rapide;sud;rec annecy nord;133.25;133.5
+506;143.2;143;adelac;rapide;nord;rec pont de la caille;143.2;143
+507;143.1;143.4;adelac;rapide;sud;rec la ravoire;143.1;143.4
+508;140;null;a410;lente;sud;fixe;140.200;142.500
+509;142.300;null;a410;lente;sud;fixe;142.500;145.850
+510;145.650;null;a410;lente;sud;fixe;142.850;149.300
+511;148.300;null;a410;lente;sud;balisage sous portique;148.500;149.300
+512;148.900;null;a410;lente;sud;balisage tunnel;149.100;153.700
+513;153.500;null;a410;lente;sud;fixe;153.700;156.400
+514;156.200;null;a410;lente;sud;fixe;156.400;158.750
+515;140;null;a410;rapide;sud;fixe;140.200;142.500
+516;142.300;null;a410;rapide;sud;fixe;142.500;145.850
+517;145.650;null;a410;rapide;sud;fixe;142.850;149.300
+518;148.300;null;a410;rapide;sud;balisage sous portique;148.500;149.300
+519;148.900;null;a410;rapide;sud;balisage tunnel;149.100;153.700
+520;153.500;null;a410;rapide;sud;fixe;153.700;156.400
+521;156.200;null;a410;rapide;sud;fixe;156.400;158.750
+522;158.700;null;a410;lente;nord;fixe;158.500;156.800
+523;157;null;a410;lente;nord;fixe;156.800;152.800
+524;152.700;null;a410;lente;nord;fixe;152.500;148.100
+525;148.300;null;a410;lente;nord;fixe;148.100;144.600
+526;144.800;null;a410;lente;nord;fixe;144.600;141.600
+527;141.800;null;a410;lente;nord;fixe;141.600;140
+528;158.700;null;a410;rapide;nord;fixe;158.500;156.800
+529;157;null;a410;rapide;nord;fixe;156.800;152.800
+530;152.700;null;a410;rapide;nord;fixe;152.500;148.100
+531;148.300;null;a410;rapide;nord;fixe;148.100;144.600
+532;144.800;null;a410;rapide;nord;fixe;144.600;141.600
+533;141.800;null;a410;rapide;nord;fixe;141.600;140
+534;155.800;null;a410;vsvl;nord;fixe;155.600;153.400
+535;164.250;null;a410;lente;sud;fixe;164.450;166.300
+536;164.250;null;a410;rapide;sud;fixe;164.450;166.300
